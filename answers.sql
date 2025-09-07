@@ -15,6 +15,10 @@ VALUES
       ('UTATSINEZA Amina',18);
 
 -- QUESTION 3: update the age of the student with ID 2 to 20
+START TRANSACTION
+    
 UPDATE student
 SET age=20
 WHERE id=2;
+
+COMMIT;
